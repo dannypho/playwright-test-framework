@@ -1,6 +1,6 @@
 base_url: "https://the-internet.herokuapp.com"
 browser: "chromium"  # chromium, firefox, or webkit
-headless: false
+headless: true
 slow_mo: 0  # Milliseconds to slow down operations (0 = no delay)
 timeout: 30000  # Default timeout in milliseconds
 
