@@ -30,7 +30,7 @@ jobs:
     
     - name: Run tests
       run: |
-        pytest tests/ --headed=false --html=reports/report.html
+        pytest tests/ --html=reports/report.html
     
     - name: Upload test results
       if: always()
