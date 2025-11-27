@@ -1,0 +1,9 @@
+base_url: "https://the-internet.herokuapp.com"
+browser: "chromium"  # chromium, firefox, or webkit
+headless: false
+slow_mo: 0  # Milliseconds to slow down operations (0 = no delay)
+timeout: 30000  # Default timeout in milliseconds
+
+# Valid credentials
+valid_username: "tomsmith"
+valid_password: "SuperSecretPassword!"
