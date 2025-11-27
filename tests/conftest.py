@@ -29,7 +29,7 @@ def context(browser):
 def browser_type_launch_args():
     """Configure browser launch"""
     return {
-        "headless": ConfigReader.is_headless(),
+        "headless": True,
         "slow_mo": ConfigReader.get('slow_mo')
     }
 
