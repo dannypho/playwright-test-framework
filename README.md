@@ -99,3 +99,17 @@ Tests run automatically on GitHub Actions on every push.
 
 View results in Actions tab on GitHub.
 
+## Test Reports
+
+This framework generates two types of reports:
+
+### HTML Report (pytest-html)
+A simple, self-contained HTML report generated after each test run.
+![HTML Report](screenshots/html-report.png)
+
+### Allure Report
+An interactive, feature-rich report with historical trends, test categorization, and attachments.
+![Allure Dashboard](screenshots/allure-dashboard.png)
+
+
+
