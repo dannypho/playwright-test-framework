@@ -1,7 +1,6 @@
 __pycache__/
 .pytest_cache/
 allure-results/
-screenshots/
-videos/
+test-results/
 traces/
 reports/
