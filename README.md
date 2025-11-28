@@ -66,6 +66,10 @@ pytest tests/ --html=reports/report.html
 
 # View screenshots and videos (auto-captured on failure)
 open test-results/
+
+# Generate Allure report
+pytest tests/ --alluredir=allure-results
+allure serve allure-results
 ```
 
 ## Configuration
@@ -94,3 +98,4 @@ Tests automatically read and parameterize from CSV.
 Tests run automatically on GitHub Actions on every push.
 
 View results in Actions tab on GitHub.
+
